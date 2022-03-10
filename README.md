@@ -9,7 +9,7 @@ This project is a Html and Css Project
 
 # Live demo
 
-[Live demo]()
+[Live demo](https://aminabuhari.github.io/Capstone-Project-/)
 
 ## Authors
 

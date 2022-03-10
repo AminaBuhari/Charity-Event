@@ -43,8 +43,9 @@ body {
 }
 
 .menu-close {
-  width: 70%;
+  width: 39%;
   display: none;
+  margin-top: 12px;
 }
 
 .close-menu-active {

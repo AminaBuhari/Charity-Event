@@ -1,360 +1,352 @@
 @import url("http://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
-	--main: #272a31;
-	--highlight: #ec5242;
-	--background: #d3d3d3;
-	--lato: 'Lato', sans-serif;
-	--cocogoose: 'COCOGOOSE', sans-serif;
+  --main: #272a31;
+  --highlight: #ec5242;
+  --background: #d3d3d3;
+  --lato: 'Lato', sans-serif;
+  --cocogoose: 'COCOGOOSE', sans-serif;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    text-align: center;
+
+body {
+  margin: 0;
+  text-align: center;
 }
+
 .container {
-    background-image: url("images/about-bg.png");
-    background-repeat: no-repeat;
-    background-size: 96% 53%;
-    margin-top: -23px;
-    background-position-y: 69px;
-    background-position-x: 35px;
-    background-color: rgba(211, 211, 211, 0.294);
-}
-#menu{
-    width: 40px;
-    margin: 20px 0 0 20px;
-    position: absolute;
-    display: block;
-    float: left;
-
-}
-.image-1{
-    height: 100px;
-    width: 80%;
-    margin-top: -10px;
-}
-.introduction{
-    margin: 16px;
+  background-image: url("images/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: 96% 53%;
+  margin-top: -23px;
+  background-position-y: 69px;
+  background-position-x: 35px;
+  background-color: rgba(211, 211, 211, 0.294);
 }
 
-h1{
-    color: orangered;
-    font-family: var(--lato);
-    font-size: 35px;
-    margin-top: -10px;
+#menu {
+  width: 40px;
+  margin: 20px 0 0 20px;
+  position: absolute;
+  display: block;
+  float: left;
 }
-.intro-text{
-    padding-top: 100px;
-    color: orangered;
-    font-size: 25px;
-    font-family: var(--lato);
+
+.image-1 {
+  height: 100px;
+  width: 80%;
+  margin-top: -10px;
+}
+
+.introduction {
+  margin: 16px;
+}
+
+h1 {
+  color: orangered;
+  font-family: var(--lato);
+  font-size: 35px;
+  margin-top: -10px;
+}
+
+.intro-text {
+  padding-top: 100px;
+  color: orangered;
+  font-size: 25px;
+  font-family: var(--lato);
 }
 
 .paragraph-title {
-	background-color: white;
-	color: #272A32;
-	font-size: 15px;
-	line-height: 18px;
-	padding: 32px;
-	margin: auto;
-	font-family: var(--lato);
+  background-color: white;
+  color: #272a32;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 32px;
+  margin: auto;
+  font-family: var(--lato);
 }
 
-.address{
-    font-family: var(--lato);
-    font-size: 12px;
-    color: #272A32;
-    padding: 0 60px;
+.address {
+  font-family: var(--lato);
+  font-size: 12px;
+  color: #272a32;
+  padding: 0 60px;
 }
 
-.adress-2{
-    font-family: var(--lato);
-    font-weight: 600;
-    color: #272A32;
-    text-decoration: underline;
-    margin-top: -10px;
-    padding-bottom: 30px;
+.adress-2 {
+  font-family: var(--lato);
+  font-weight: 600;
+  color: #272a32;
+  text-decoration: underline;
+  margin-top: -10px;
+  padding-bottom: 30px;
 }
 
-h4{
-    font-family: var(--lato);
-    font-size: 15px;
-    padding: 0 90px;
-    
+h4 {
+  font-family: var(--lato);
+  font-size: 15px;
+  padding: 0 90px;
 }
 
-.guide{
-    border-bottom: 1px solid orangered;
-    width: 10%;
-    margin: auto;
+.guide {
+  border-bottom: 1px solid orangered;
+  width: 10%;
+  margin: auto;
 }
 
-.logo{
-   
-    border: 1px solid lightgrey;
-    height: 30%;
-    width: 90%;
-    padding: 0 80px;
-    margin: 20px 0;
-}  
-
-h3{
-    font-family: calibri;
-    font-size: 20px;
-    padding-top: 30px;
-    border-top: 1px solid lightgray;
+.logo {
+  border: 1px solid lightgrey;
+  height: 30%;
+  width: 90%;
+  padding: 0 80px;
+  margin: 20px 0;
 }
 
-.outreach{
-    margin: 10px 30px;
-    width: 80%;
+h3 {
+  font-family: var(--lato);
+  font-size: 20px;
+  padding-top: 30px;
+  border-top: 1px solid lightgray;
 }
 
-.partner{
-    background-color: #494b50;
-    height: 25vh;
-
+.outreach {
+  margin: 10px 30px;
+  width: 80%;
 }
 
-h5{
-    font-family: calibri;
-    color: white;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-bottom: -1px;
-
+.partner {
+  background-color: #494b50;
+  height: 25vh;
 }
 
-.logo-2{
-    width: 80%;
+h5 {
+  font-family: var(--lato);
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: -1px;
 }
 
-.logo-3{
-    width: 70%;
-    margin: 2px;
+.logo-2 {
+  width: 80%;
 }
 
-.logo-1{
-    width: 80%;
-    margin-top: 8px;
+.logo-3 {
+  width: 70%;
+  margin: 2px;
 }
 
-.logo-4{
-    width: 50%;
-    margin: -14px;
+.logo-1 {
+  width: 80%;
+  margin-top: 8px;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    padding: 0;
-    margin-top: 20px;
+.logo-4 {
+  width: 50%;
+  margin: -14px;
 }
 
-li{
-    width: 30%;
-    margin: 10px;
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin-top: 20px;
 }
 
-.dogo-logo{
-    width: 60%;
+li {
+  width: 30%;
+  margin: 10px;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
+.dogo-logo {
+  width: 60%;
 }
 
-.paragraph{
-    background-color: white;
-	color: #272A32;
-	font-size: 10px;
-	line-height: 18px;
-    margin-top: 80px;
-	font-family: var(--lato);
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
 }
 
-#desktop-menu{
-    display: none;
+.paragraph {
+  background-color: white;
+  color: #272a32;
+  font-size: 10px;
+  line-height: 18px;
+  margin-top: 80px;
+  font-family: var(--lato);
+}
+
+#desktop-menu {
+  display: none;
 }
 
 @media (min-width: 768px) {
+  #menu {
+    display: none;
+  }
 
-    #menu{
-        display: none;
-    }
-    #desktop-menu{
-        display: block;
-    }
-    .menu-nav{
-        display: none;
-    }
-    ul{
-        list-style: none;
-        
-    }
+  #desktop-menu {
+    display: block;
+  }
 
-    li{
-        width: 10%;
-        margin-bottom: 5px;
-        margin-right: 0%;
-        margin-left: 0;
-    
-    }
+  .menu-nav {
+    display: none;
+  }
 
+  ul {
+    list-style: none;
+  }
 
+  li {
+    width: 10%;
+    margin-bottom: 5px;
+    margin-right: 0%;
+    margin-left: 0;
+  }
 
-    .navigation{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgb(47, 47, 47);
-        justify-content: flex-end;
-        margin: 0%;
-        height: 5vh;
-        padding-right: 50px;
-        
-    }
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(47, 47, 47);
+    justify-content: flex-end;
+    margin: 0%;
+    height: 5vh;
+    padding-right: 50px;
+  }
 
-    .nav-desk{
-        color: white;
-        font-family: var(--lato);
-        font-size: 15px;
-        margin-top: 5px;
-        gap:10px;
-        width: 100%;
-        padding-top: 5px;
-    }
+  .nav-desk {
+    color: white;
+    font-family: var(--lato);
+    font-size: 15px;
+    margin-top: 5px;
+    gap: 10px;
+    width: 100%;
+    padding-top: 5px;
+  }
 
-    .twitter{
-        height: 25px;
-        padding-top: 6px;
-    }
+  .twitter {
+    height: 25px;
+    padding-top: 6px;
+  }
 
-    .cat{
-        height: 25px;
-        padding-top: 6px;
-    }
+  .cat {
+    height: 25px;
+    padding-top: 6px;
+  }
 
-    .desk-nav{
-        display: flex;
-        justify-content: space-around;
-    }
-    .list-desk{
-        display: flex;
-        flex-direction: wrap;
-        font-family: calibri;
-        gap: 60px;
-        margin-top: 30px;
-        padding-right: 50px;
-    }
-    .container-desk{
-        flex-direction: wrap;
-        display: flex;
-    }
+  .desk-nav {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    a:hover{
-        color: orangered;
-    }
-    .anchor{
-        text-decoration: none;
-        color: rgb(112, 112, 112);
-        font-size: 130%;
-    }
+  .list-desk {
+    display: flex;
+    font-family: var(--lato);
+    gap: 60px;
+    margin-top: 30px;
+    padding-right: 50px;
+  }
 
-    .image-desk {
-        width: 80%;
-        margin-left: 20%;
-        padding-top: 17px;
-    }
+  .container-desk {
+    display: flex;
+  }
 
-    .point{
-        font-family: var(--lato);
-        color: orangered;
-        font-size: 22px;
-        font-weight: 700;
-        margin-top: 26px;
-        text-decoration: none;
-        margin-right: 10px;
-        padding: 10px 10px;
-        border: 2px solid orangered;
+  a:hover {
+    color: orangered;
+  }
 
-    }
+  .anchor {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-size: 130%;
+  }
 
-    .introduction, .about {
-        margin:  0 149px;
-    }
+  .image-desk {
+    width: 80%;
+    margin-left: 20%;
+    padding-top: 17px;
+  }
 
-    .intro-text{
-        display: none;
-    }
+  .point {
+    font-family: var(--lato);
+    color: orangered;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 26px;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 10px;
+    border: 2px solid orangered;
+  }
 
-    h1{
-        margin-top: 20px;
-        padding-top: 50px;
-    }
+  .introduction,
+  .about {
+    margin: 0 149px;
+  }
 
-    h4{
-        font-size: 16px;
-        padding-top: 10px;
-        margin-bottom: -1px;
-        padding-bottom: 10px;
-    }
+  .intro-text {
+    display: none;
+  }
 
-    .outreach{
-        width: 35%;
-        height: 22vh;
-    }
+  h1 {
+    margin-top: 20px;
+    padding-top: 50px;
+  }
 
-    .img{
-        margin-right:7px;
-    }
+  h4 {
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: -1px;
+    padding-bottom: 10px;
+  }
 
-    .img-1{
-        margin-left: 7px;
-    }
-    .image-class{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .outreach {
+    width: 35%;
+    height: 22vh;
+  }
 
-    .partner{
-        display: none;
-    }
+  .img {
+    margin-right: 7px;
+  }
 
-    .dogo-logo {
-        width: 20%;
-        height: 10vh;
-        margin-top: 40px;
-        margin-left: -40px;
-    }
+  .img-1 {
+    margin-left: 7px;
+  }
 
+  .image-class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    footer{
-        margin: 0;
-        background-color: #272A32;
-        display: flex;
-        justify-content: center;
-        gap: 50px;
-        
-    }
+  .partner {
+    display: none;
+  }
 
-    .paragraph{
-        color: white;
-        background-color: #272A32;
-    }
+  .dogo-logo {
+    width: 20%;
+    height: 10vh;
+    margin-top: 40px;
+    margin-left: -40px;
+  }
 
-   
+  footer {
+    margin: 0;
+    background-color: #272a32;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
 
-    
-
-
-
+  .paragraph {
+    color: white;
+    background-color: #272a32;
+  }
 }

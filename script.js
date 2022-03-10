@@ -16,54 +16,54 @@ navMobileList.forEach((elem) => {
 });
 
 const projects = [
-    {
-      id: 1,
-      name: 'Pharm Aliya Buhari',
-      title: 'Digital health entuthiast and program manager, DOGO, charity',
-      description: 'Health data security and ways to improve data in health facilities',
-      featured_image: 'images/Untitled design.png',
-    },
-    {
-      id: 2,
-      name: 'Dr Ope Lukan',
-      title: 'Internal Medicine Resident at Advocate Illinois Masonic Medical center',
-      description: 'Digital health technology and impact in COVID-19 pandemic',
-      featured_image: 'images/opee.png',
-    },
-    {
+  {
+    id: 1,
+    name: 'Pharm Aliya Buhari',
+    title: 'Digital health entuthiast and program manager, DOGO, charity',
+    description: 'Health data security and ways to improve data in health facilities',
+    featured_image: 'images/Untitled design.png',
+  },
+  {
+    id: 2,
+    name: 'Dr Ope Lukan',
+    title: 'Internal Medicine Resident at Advocate Illinois Masonic Medical center',
+    description: 'Digital health technology and impact in COVID-19 pandemic',
+    featured_image: 'images/opee.png',
+  },
+  {
     id: 'desk-image-3',
-      name: 'Ada Duke',
-      title: 'Community health facilitator',
-      description: 'Health data security and ways to improve data in health facilities',
-      featured_image: 'images/Untitled design(2).png',
-    },
-    {
-      id: 'desk-image-4',
-      name: 'Alice Duke',
-      title: 'Health advocate',
-      description: 'Digital health technology and impact in COVID-19 pandemic',
-      featured_image: 'images/Untitled design(1).png',
-    },
-    {
+    name: 'Ada Duke',
+    title: 'Community health facilitator',
+    description: 'Health data security and ways to improve data in health facilities',
+    featured_image: 'images/Untitled design(2).png',
+  },
+  {
+    id: 'desk-image-4',
+    name: 'Alice Duke',
+    title: 'Health advocate',
+    description: 'Digital health technology and impact in COVID-19 pandemic',
+    featured_image: 'images/Untitled design(1).png',
+  },
+  {
     id: 'desk-image-5',
-      name: 'James Alan',
-      title: 'Health professor',
-      description: 'Health data security and ways to improve data in health facilities',
-      featured_image: 'images/Untitled design(3).png',
-    },
-    {
-      id: 'desk-image-6',
-      name: 'Rothbrok abass',
-      title: 'Health personnel',
-      description: 'Digital health technology and impact in COVID-19 pandemic',
-      featured_image: 'images/Untitled design(4).png',
-    },
-  ];
-  
-  window.onload = () => {
-    const newContainer = document.getElementById('speak');
-    projects.forEach((project) => {
-      const cardsHTML = ` <div class="speaker-card" id="${project.id}">
+    name: 'James Alan',
+    title: 'Health professor',
+    description: 'Health data security and ways to improve data in health facilities',
+    featured_image: 'images/Untitled design(3).png',
+  },
+  {
+    id: 'desk-image-6',
+    name: 'Rothbrok abass',
+    title: 'Health personnel',
+    description: 'Digital health technology and impact in COVID-19 pandemic',
+    featured_image: 'images/Untitled design(4).png',
+  },
+];
+
+window.onload = () => {
+  const newContainer = document.getElementById('speak');
+  projects.forEach((project) => {
+    const cardsHTML = ` <div class="speaker-card" id="${project.id}">
       <img class="speaker-image" src="${project.featured_image}" alt="Speakers" />
       <div class="speaker-description">
       <h5>${project.name}</h5>
@@ -77,6 +77,6 @@ const projects = [
       </div>
   </div>
         `;
-      newContainer.insertAdjacentHTML('beforeend', cardsHTML);
-    });
-  };
+    newContainer.insertAdjacentHTML('beforeend', cardsHTML);
+  });
+};
